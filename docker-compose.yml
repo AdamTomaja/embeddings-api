@@ -1,0 +1,10 @@
+version: '3'
+services:
+  image-embeddings-api:
+    image: embedding-api
+    ports:
+      - 5000:5000
+    volumes:
+      - models:/root/.cache/huggingface
+volumes:
+  models:
