@@ -24,7 +24,7 @@ To run the Sentence Embedding Server, ensure that you have the following depende
 1. Clone this repository to your local machine:
 
 ```shell
-git clone https://github.com/your_username/sentence-embedding-server.git
+git clone https://github.com/AdamTomaja/embeddings-api.git
 ```
 
 2. Change into the project directory:
