@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id "com.diffplug.spotless" version "6.11.0"
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    // Qdrant
+    implementation 'io.metaloom.qdrant:qdrant-java-http-client:0.13.0'
+
+    // OpenAI
+    implementation 'com.theokanning.openai-gpt3-java:api:0.12.0'
+    implementation 'com.theokanning.openai-gpt3-java:client:0.12.0'
+    implementation 'com.theokanning.openai-gpt3-java:service:0.12.0'
+
+    // Text
+    implementation group: 'org.apache.commons', name: 'commons-text', version: '1.10.0'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation 'com.github.f4b6a3:ulid-creator:5.2.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.1'
+
+    // Streams
+    implementation 'one.util:streamex:0.8.1'
+
+    // Logging
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.7'
+    implementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.7'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.28'
+    annotationProcessor 'org.projectlombok:lombok:1.18.28'
+    testCompileOnly 'org.projectlombok:lombok:1.18.28'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+spotless {
+    java {
+        googleJavaFormat()
+    }
+}

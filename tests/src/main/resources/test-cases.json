@@ -1,0 +1,64 @@
+{
+  "test_cases": [
+    {
+      "english": "The quick brown fox jumps over the lazy dog.",
+      "polish": "Szybki brązowy lis przeskakuje nad leniwym psem.",
+      "modified_polish": "Szybki lis przeskakuje nad leniwym psem.",
+      "additional_english": "A quick fox jumps over the lazy dog."
+    },
+    {
+      "english": "Machine learning is a branch of artificial intelligence.",
+      "polish": "Uczenie maszynowe to gałąź sztucznej inteligencji.",
+      "modified_polish": "Uczenie maszynowe to dziedzina sztucznej inteligencji.",
+      "additional_english": "Machine learning is a field of artificial intelligence."
+    },
+    {
+      "english": "I enjoy playing tennis and swimming in the summer.",
+      "polish": "Lubię grać w tenisa i pływać latem.",
+      "modified_polish": "Lubię grać w tenisa i uprawiać sporty wodne latem.",
+      "additional_english": "I enjoy playing tennis and engaging in water sports in the summer."
+    },
+    {
+      "english": "The concert was amazing; the band performed exceptionally well.",
+      "polish": "Koncert był niesamowity; zespół zagrał wyjątkowo dobrze.",
+      "modified_polish": "Koncert był fantastyczny; zespół zagrał niezwykle dobrze.",
+      "additional_english": "The concert was fantastic; the band performed exceptionally well."
+    },
+    {
+      "english": "Innovation and creativity are crucial for solving complex problems.",
+      "polish": "Innowacja i kreatywność są kluczowe przy rozwiązywaniu skomplikowanych problemów.",
+      "modified_polish": "Innowacja i twórczość są niezbędne do rozwiązywania złożonych problemów.",
+      "additional_english": "Innovation and creativity are essential for solving complex problems."
+    },
+    {
+      "english": "The sun sets in the west.",
+      "polish": "Słońce zachodzi na zachodzie.",
+      "modified_polish": "Słońce zachodzi w kierunku zachodnim.",
+      "additional_english": "The sun sets in the western direction."
+    },
+    {
+      "english": "I like to read books and listen to music.",
+      "polish": "Lubię czytać książki i słuchać muzyki.",
+      "modified_polish": "Lubię czytać książki i słuchać różnych rodzajów muzyki.",
+      "additional_english": "I like to read books and listen to different genres of music."
+    },
+    {
+      "english": "Exercise is important for maintaining good health.",
+      "polish": "Ćwiczenia są ważne dla utrzymania dobrej kondycji.",
+      "modified_polish": "Aktywność fizyczna jest istotna dla utrzymania dobrego zdrowia.",
+      "additional_english": "Physical activity is important for maintaining good health."
+    },
+    {
+      "english": "The movie received mixed reviews from critics.",
+      "polish": "Film otrzymał mieszane recenzje od krytyków.",
+      "modified_polish": "Film spotkał się z mieszanymi opiniami krytyków.",
+      "additional_english": "The movie received mixed opinions from critics."
+    },
+    {
+      "english": "Travel broadens the mind.",
+      "polish": "Podróże poszerzają horyzonty.",
+      "modified_polish": "Podróże otwierają umysł na nowe doświadczenia.",
+      "additional_english": "Travel opens the mind to new experiences."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+sentence,direct_polish,direct_english,polish_modified,english_modified,polish_to_english,english_to_polish
+Szybki brązowy lis przeskakuje nad leniwym psem.,1.0,1.0,0.9710116,0.9588318,0.02603647,0.02603647
+Uczenie maszynowe to gałąź sztucznej inteligencji.,1.0000001,1.0000001,0.9686935,0.9187345,0.2353598,0.2353598
+Lubię grać w tenisa i pływać latem.,1.0000001,1.0,0.7476695,0.96090704,-0.007698354,-0.007698354
+Koncert był niesamowity; zespół zagrał wyjątkowo dobrze.,1.0000001,0.99999994,0.8119613,0.9923155,0.06943755,0.06943755
+Innowacja i kreatywność są kluczowe przy rozwiązywaniu skomplikowanych problemów.,0.99999994,1.0,0.80890155,0.9961277,0.15009983,0.15009983
+Słońce zachodzi na zachodzie.,1.0,1.0000001,0.9343878,0.92685926,0.05736231,0.05736231
+Lubię czytać książki i słuchać muzyki.,1.0,1.0000001,0.9676039,0.96978116,0.06995513,0.06995513
+Ćwiczenia są ważne dla utrzymania dobrej kondycji.,1.0000001,1.0000001,0.90997,0.919191,0.009884778,0.009884778
+Film otrzymał mieszane recenzje od krytyków.,1.0000001,1.0,0.88522583,0.9663323,0.22046837,0.22046837
+Podróże poszerzają horyzonty.,1.0000001,1.0,0.6775352,0.9137102,0.034587033,0.034587033
