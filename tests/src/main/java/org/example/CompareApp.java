@@ -22,8 +22,8 @@ public class CompareApp extends AbstractTestApp {
 
   private void compare() throws Exception {
     var testCases = TestData.loadTestData().getTestCases();
-    //    runFor(testCases, openAiConnector, getOpenAiCollection());
-    runFor(testCases, embeddingsApiService, getEmbeddingsApiCollection());
+    runFor(testCases, openAiConnector, getOpenAiCollection());
+//    runFor(testCases, embeddingsApiService, getEmbeddingsApiCollection());
   }
 
   private void runFor(
@@ -31,11 +31,11 @@ public class CompareApp extends AbstractTestApp {
       throws Exception {
     System.out.println("%s: ".formatted(generator.getClass().getSimpleName()));
     System.out.println(
-        "sentence,direct_polish,direct_english,polish_modified,english_modified,polish_to_english,english_to_polish");
+        "sentence\tdirect_polish\tdirect_english\tpolish_modified\tenglish_modified\tpolish_to_english\tenglish_to_polish");
     for (int i = 0; i < testCases.size(); i++) {
       var testCase = testCases.get(i);
       System.out.println(
-          "%s,%s,%s,%s,%s,%s,%s"
+          "%s\t%s\t%s\t%s\t%s\t%s\t%s"
               .formatted(
                   testCase.getPolish(),
                   compare(testCase.getPolish(), testCase.getPolish(), generator, collection),
